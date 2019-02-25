@@ -1,0 +1,18 @@
+help
+set x 10
+jajaj sjajja
+exec prog1.txt
+exec prog1.txt prog2.txt
+exec prog1.txt prog2.txt prog3.txt
+exec jack prog1.txt
+exec prog1.txt prog1.txt
+exec prog1.txt prog1.txt prog1.txt
+exec jack matt
+exec jack jack
+exec jack prog1.txt jack
+exec jack jack prog1.txt
+exec prog1.txt jack jack
+exec prog1.txt prog1.txt jack
+exec prog1.txt jack prog1.txt
+exec jack prog1.txt prog1.txt
+exec jack jack jack
