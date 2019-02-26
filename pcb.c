@@ -10,13 +10,14 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+// Instantiating PCB head and tail pointers
 struct PCB *headPCB;
 struct PCB *tailPCB;
 
 // Initializes the ready queue
 void initReadyQueue() {
-    struct PCB *headPCB = NULL;
-    struct PCB *tailPCB = NULL;
+    headPCB = NULL;
+    tailPCB = NULL;
 }
 
 // Mallocs a PCB for a program
@@ -60,10 +61,9 @@ void enqueue(struct PCB* pcb) {
 struct PCB* dequeue() {
     // On the next iteration of the dequeue after queue has been emptied out, it will just return
     // the temp is just a place holder for the prgram to stop execution at a specific point
-    struct PCB* temp;
     if (headPCB == NULL && tailPCB == NULL) {
         printf("\nError! Ready is already empty!\n");
-        return temp;
+        return NULL;
     }
     struct PCB* returnedPCB = headPCB;
     printf("PCB: %s dequeued from ready.\n", returnedPCB->name);

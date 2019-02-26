@@ -16,10 +16,17 @@ int i;
 
 // Initializes ram
 void initRAM(){
-    // Simulates OS memory to run processes
-    FILE *ram[10] = {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL};
-    // Keeps track of which ram cell index programs are put into, i increases after each add to ram
-    int i = 0;
+    ram[0] = NULL;
+    ram[1] = NULL;
+    ram[2] = NULL;
+    ram[3] = NULL;
+    ram[4] = NULL;
+    ram[5] = NULL;
+    ram[6] = NULL;
+    ram[7] = NULL;
+    ram[8] = NULL;
+    ram[9] = NULL;
+    i = 0;
 }
 
 // Adds the fopened file ptr to the ram data structure which holds an array of file ptrs

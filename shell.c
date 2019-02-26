@@ -46,8 +46,8 @@ int parse(char ui[]) {
     // instantiating indexes and char arrays and array pointers to store parsed user input's address of the strings
     char tmp[100];
     char *words[100];
-    //*words = (char*)malloc((100)*sizeof(char));
     memset(words,'\0',100);
+    //*words = (char*)malloc((100)*sizeof(char));
     int i,j;
     int index = 0;
     

@@ -17,8 +17,8 @@ struct LinkedListNode *currentNode;
 
 void initShellMemory() {
     // to keep track of where my head and current nodes are
-    struct LinkedListNode *head = NULL;
-    struct LinkedListNode *currentNode = NULL;
+    head = NULL;
+    currentNode = NULL;
 }
 
 
