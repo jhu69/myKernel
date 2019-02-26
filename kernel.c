@@ -76,6 +76,7 @@ void scheduler() {
             
         }
     }
+    free(myCPU);
 }
 
 
