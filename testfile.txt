@@ -16,4 +16,6 @@ exec prog1.txt prog1.txt jack
 exec prog1.txt jack prog1.txt
 exec jack prog1.txt prog1.txt
 exec jack jack jack
+help
+set y 11
 quit
